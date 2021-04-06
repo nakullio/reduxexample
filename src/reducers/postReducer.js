@@ -1,3 +1,4 @@
+import { Children } from 'react';
 import { FETCH_POSTS, NEW_POST } from '../actions/types';
 
 const initialState = {
