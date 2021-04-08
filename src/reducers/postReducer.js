@@ -14,7 +14,7 @@ export default function(state = initialState, action) {
             return {
                 ...state,
                 items: action.payload
-            }
+            };
         // what type that is
         default:
             return state;
